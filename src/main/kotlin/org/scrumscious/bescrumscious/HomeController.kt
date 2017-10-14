@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController
 @RestController
 class HomeController {
 
-    @RequestMapping ("/")
+    @RequestMapping ("/api/")
     fun start (): String {
         return "Hello Wtw"
     }
